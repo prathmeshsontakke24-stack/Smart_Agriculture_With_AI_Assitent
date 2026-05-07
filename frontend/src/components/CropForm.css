@@ -1,0 +1,225 @@
+/* CropForm.css - Modern & Beautiful Add Crop Page */
+
+.crop-form-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: calc(100vh - 80px);
+    border-radius: 0;
+}
+
+.crop-form-container h1 {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.crop-form-container h1::before {
+    content: "🌾";
+    font-size: 2rem;
+}
+
+.crop-form-container h1::after {
+    content: "🌱";
+    font-size: 2rem;
+}
+
+.form-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.crop-form {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crop-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+}
+
+.form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.form-group label::before {
+    margin-right: 8px;
+}
+
+.form-group label[for="name"]::before {
+    content: "🌾 ";
+}
+
+.form-group label[for="type"]::before {
+    content: "🌿 ";
+}
+
+.form-group label[for="variety"]::before {
+    content: "🌱 ";
+}
+
+.form-group label[for="area"]::before {
+    content: "📏 ";
+}
+
+.form-group label[for="soilType"]::before {
+    content: "🏞️ ";
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: #fafafa;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.form-group input:hover,
+.form-group select:hover,
+.form-group textarea:hover {
+    border-color: #bbb;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.submit-btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.submit-btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(46, 125, 50, 0.3);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+.submit-btn:disabled {
+    background: linear-gradient(135deg, #999 0%, #bbb 100%);
+    cursor: not-allowed;
+    transform: none;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #c62828;
+    font-size: 0.9rem;
+}
+
+.success-message {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #2e7d32;
+    font-size: 0.9rem;
+}
+
+.info-card {
+    background: #f0f7f0;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.info-card p {
+    margin: 0;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .crop-form-container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .crop-form {
+        padding: 1.5rem;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .crop-form-container h1 {
+        font-size: 1.8rem;
+    }
+}
