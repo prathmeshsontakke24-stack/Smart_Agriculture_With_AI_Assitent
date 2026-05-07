@@ -300,6 +300,15 @@ Through this project, developers can learn:
 
 ---
 
+Flow of website
+
+![image alt](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005508.png)
+![image alt](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005718.png)
+![image alt](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005632.png)
+![image alt](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005632.png)
+![image alt](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005656.png)
+![image](https://github.com/prathmeshsontakke24-stack/Smart_Agriculture_With_AI_Assitent/blob/f0af0c86857bee763145f0f47a394dac268fed6e/Screenshot%202026-05-08%20005743.png)
+
 # 📄 Conclusion
 
 Smart Agriculture & AI Assistant is a modern agriculture management system that combines Artificial Intelligence with web technologies to improve farming practices. The project helps farmers manage agricultural activities digitally while receiving intelligent suggestions through AI integration.
